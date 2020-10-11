@@ -6,19 +6,6 @@ Ej: si se ingresa 121 se debe imprimir:
 y si se ingresa 123 se debe imprimir:
 123 NO es un numero palindromo
 
-            residuo = numero_disminuye%(potencia*10);
-            numero_nuevo += residuo;
-            numero_disminuye = numero - numero_nuevo;
-            potencia *= 10;
-
-            cout << residuo << " "<< numero_nuevo << " " << numero_disminuye << " " << potencia << endl;
-
-        }
-
-        if(numero_nuevo == numero)
-            cout << "Es palindromo" <<  endl;
-        else
-            cout << "No es palindromo" << endl;
 */
 
 #include <iostream>
